@@ -14,13 +14,21 @@ This repository contains the **Kubernetes manifests and GitOps configuration** f
 ## 📦 Repository Structure
 
 gitops/
+
 deployment.yaml # Kubernetes Deployment for the app
+
 service.yaml # Kubernetes Service (LoadBalancer)
+
 servicemonitor.yaml # Prometheus ServiceMonitor for app metrics
+
 kustomization.yaml # (If using Kustomize)
+
 argocd-app.yaml # Argo CD Application manifest
+
 observability/
+
 grafana-dashboard.json # Custom Grafana dashboard (importable)
+
 docs/
 
 
